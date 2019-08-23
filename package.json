@@ -15,10 +15,12 @@
     "bootstrap": "^4.3.1",
     "chalk": "^2.4.2",
     "debug": "^4.1.1",
+    "ejs": "^2.6.2",
     "express": "^4.17.1",
     "jquery": "^3.4.1",
     "morgan": "^1.9.1",
-    "nodemon": "^1.19.1"
+    "nodemon": "^1.19.1",
+    "pug": "^2.0.4"
   },
   "devDependencies": {
     "eslint": "^6.1.0",
@@ -31,10 +33,9 @@
       "node_modules/**/node_modules"
     ],
     "delay": "2500",
-  
-  "env": {
-    "NODE_ENV": "development",
-    "PORT": 4000
+    "env": {
+      "NODE_ENV": "development",
+      "PORT": 4000
+    }
   }
-}
 }
